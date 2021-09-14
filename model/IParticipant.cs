@@ -4,7 +4,7 @@ using System.Text;
 
 namespace race
 {
-    class Participant
+    interface IParticipant
     {
     }
 }

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C\\race\\model\\model.csproj",
+      "projectUniqueName": "D:\\C\\racegame\\racegame\\model\\model.csproj",
       "projectName": "model",
-      "projectPath": "D:\\C\\race\\model\\model.csproj",
+      "projectPath": "D:\\C\\racegame\\racegame\\model\\model.csproj",
       "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
-      "outputPath": "D:\\C\\race\\model\\obj\\",
+      "outputPath": "D:\\C\\racegame\\racegame\\model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
