@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    interface IParticipant
+    public interface IParticipant
     {
+        String Name { get; set; }
+        int Points { get; set; }
+        IEquipment Equipment { get; set; }
+        TeamColors TeamColor { get; set; }
+
     }
 }

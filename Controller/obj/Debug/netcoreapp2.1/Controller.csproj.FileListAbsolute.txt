@@ -1,0 +1,12 @@
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.csprojAssemblyReference.cache
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.csproj.CoreCompileInputs.cache
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.AssemblyInfoInputs.cache
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.AssemblyInfo.cs
+D:\C\racegame\racegame\Controller\bin\Debug\netcoreapp2.1\Controller.deps.json
+D:\C\racegame\racegame\Controller\bin\Debug\netcoreapp2.1\Controller.dll
+D:\C\racegame\racegame\Controller\bin\Debug\netcoreapp2.1\Controller.pdb
+D:\C\racegame\racegame\Controller\bin\Debug\netcoreapp2.1\model.dll
+D:\C\racegame\racegame\Controller\bin\Debug\netcoreapp2.1\model.pdb
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.csproj.CopyComplete
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.dll
+D:\C\racegame\racegame\Controller\obj\Debug\netcoreapp2.1\Controller.pdb

@@ -1,8 +1,10 @@
 ﻿using System;
 
-namespace model
+namespace Controller
 {
     public class Class1
     {
+
+
     }
 }

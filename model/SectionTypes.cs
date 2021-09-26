@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    class SectionTypes
+    public enum SectionTypes
     {
+        Straight,
+        LeftCorner,
+        RightCorner,
+        StartGrid,
+        Finish
     }
 }

@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    class Section
+    public class Section
     {
+        public SectionTypes SectionType { get; set; }
+
+        public Section(SectionTypes sectionType)
+        {
+            this.SectionType = sectionType;
+        }
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    class Car
+     public class Car
     {
     }
 }

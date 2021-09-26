@@ -2,9 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    class TeamColors
+    public enum TeamColors
     {
+        Red,
+        Green,
+        Yellow,
+        Grey,
+        Blue
+
+
+
     }
 }

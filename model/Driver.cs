@@ -2,9 +2,19 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace race
+namespace Model
 {
-    class Driver
+    public class Driver : IParticipant
     {
+        public string Name { get ; set ; }
+        public int Points { get ; set ; }
+        public IEquipment Equipment { get ; set ; }
+        public TeamColors TeamColor { get ; set ; }
+
+
+        public Driver(string name)
+        {
+            Name = name;
+        }
     }
 }
