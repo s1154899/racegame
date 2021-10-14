@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "race", "race\race.csproj", "{B8CA560F-7C55-448C-A8D9-D846907AB3DF}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "model", "model\model.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControllerTest", "ControllerTest\ControllerTest.csproj", "{2BF51858-3D74-4CDA-9EF1-44DECE1B7BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller", "Controller\Controller.csproj", "{BC16CDF1-C156-44CE-BE3B-C1F8CB6CE8A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller", "Controller\Controller.csproj", "{BC16CDF1-C156-44CE-BE3B-C1F8CB6CE8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "raceWPF", "raceWPF\raceWPF.csproj", "{4D13B372-1618-43DB-BDF4-418C9C38D880}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BC16CDF1-C156-44CE-BE3B-C1F8CB6CE8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC16CDF1-C156-44CE-BE3B-C1F8CB6CE8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC16CDF1-C156-44CE-BE3B-C1F8CB6CE8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D13B372-1618-43DB-BDF4-418C9C38D880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D13B372-1618-43DB-BDF4-418C9C38D880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D13B372-1618-43DB-BDF4-418C9C38D880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D13B372-1618-43DB-BDF4-418C9C38D880}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

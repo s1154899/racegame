@@ -18,3 +18,5 @@ D:\C\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.Ass
 D:\C\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.csproj.CopyComplete
 D:\C\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.dll
 D:\C\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.pdb
+C:\Users\danie\source\repos\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.dll
+C:\Users\danie\source\repos\racegame\racegame\ControllerTest\obj\Debug\netcoreapp2.1\ControllerTest.pdb

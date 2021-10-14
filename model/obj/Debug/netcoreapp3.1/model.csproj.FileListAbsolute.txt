@@ -1,0 +1,10 @@
+C:\Users\danie\source\repos\racegame\racegame\model\bin\Debug\netcoreapp3.1\model.deps.json
+C:\Users\danie\source\repos\racegame\racegame\model\bin\Debug\netcoreapp3.1\model.dll
+C:\Users\danie\source\repos\racegame\racegame\model\bin\Debug\netcoreapp3.1\model.pdb
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.AssemblyInfo.cs
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.dll
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.pdb
+C:\Users\danie\source\repos\racegame\racegame\model\obj\Debug\netcoreapp3.1\model.csproj.AssemblyReference.cache

@@ -11,5 +11,8 @@ namespace Model
         int Speed { get; set; }
         bool isBroken { get; set; }
 
+        void randomEquipment();
+        void breaks();
+
     }
 }

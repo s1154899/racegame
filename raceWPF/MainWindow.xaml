@@ -1,0 +1,28 @@
+﻿<Window x:Class="raceWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:raceWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFA90D0D">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="87*"/>
+            <ColumnDefinition Width="313*"/>
+        </Grid.ColumnDefinitions>
+        <DockPanel LastChildFill="False" Grid.ColumnSpan="2">
+            <Menu DockPanel.Dock="Top" Height="40" VerticalAlignment="Top" >
+                <RibbonApplicationMenuItem Header="menu">
+                    <RibbonApplicationMenuItem Header="stats" Click="MenuItem_stats_Click" />
+                    <RibbonApplicationMenuItem Header="leaderBoard" Click="MenuItem_leaderBoard_Click"/>
+                    <RibbonApplicationMenuItem Header="exit" Click="MenuItem_Exit_Click"/>
+
+                </RibbonApplicationMenuItem>
+
+            </Menu>
+        </DockPanel>
+        <Image Name="raceTrack" HorizontalAlignment="Right" Height="346" Margin="0,0,10,0" VerticalAlignment="Bottom" Width="780" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fotos\cornerBottomToLeft.png" />
+    <None Remove="fotos\greenCar.png" />
+    <None Remove="fotos\greenCarBroken.png" />
+    <None Remove="fotos\straightLeftToRight.png" />
+    <None Remove="fotos\straightLeftToRightFinish.png" />
+    <None Remove="fotos\straightLeftToRightStart.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="fotos\cornerBottomToLeft.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fotos\greenCar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fotos\greenCarBroken.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fotos\straightLeftToRight.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fotos\straightLeftToRightFinish.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fotos\straightLeftToRightStart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Controller\Controller.csproj" />
+    <ProjectReference Include="..\model\model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:raceWPF"
+        xmlns:Controller="clr-namespace:Controller;assembly=Controller" x:Class="raceWPF.leaderBoard"
+        mc:Ignorable="d"
+        Title="leaderBoard" Height="450" Width="800">
+
+    <Window.DataContext>
+        <Controller:LeaderboardInfo/>
+    </Window.DataContext>
+
+    <Grid ScrollViewer.HorizontalScrollBarVisibility="Visible">
+        <TextBox Text="{Binding LeaderBoard}" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Height="414" Width="271" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Visible" IsReadOnly="True"/>
+        <TextBox Text="{Binding Winning}" HorizontalAlignment="Left" Margin="519,0,0,0" VerticalAlignment="Center" Height="414" Width="271" VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" HorizontalScrollBarVisibility="Visible" IsReadOnly="True"/>
+
+
+    </Grid>
+</Window>

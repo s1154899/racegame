@@ -32,12 +32,13 @@ namespace race
 
         #endregion
 
+        
 
         public static void DrawTrack(Track track)
         {
             LinkedListNode<Section> trackPart = track.Sections.First;
-            int x = 16;
-            int y = 16;
+            int x = 32;
+            int y = 2;
             Direction direction = Direction.right;
 
             while (!object.Equals(trackPart, null))
@@ -136,16 +137,52 @@ namespace race
             char[] returnValue = { '#', '#' };
             if (!object.Equals(data.Left,null))
             {
+                
                 returnValue[0] = data.Left.Name.ToCharArray()[0];
+                if (data.Left.Equipment.isBroken == true)
+                {
+                    returnValue[0] = 'X';
+                }
             }
 
             if (!object.Equals(data.Right, null))
             {
                 returnValue[1] = data.Right.Name.ToCharArray()[0];
+                if (data.Right.Equipment.isBroken == true)
+                {
+                    returnValue[1] = 'X';
+                }
             }
 
             return returnValue;
 
+        }
+
+        public static void writeTrackName(String name)
+        {
+            Console.SetCursorPosition(0,0);
+            Console.Write(name);
+
+        }
+
+        public static void displayWinners(Dictionary<String ,List<IParticipant>> winners)
+        {
+            foreach (var winnersList in winners)
+            {
+                Console.WriteLine(winnersList.Key);
+                int i = 0;
+                foreach (var participant in winnersList.Value)
+                {
+                    i++;
+                    Console.WriteLine("place " + i + ":" + participant.Name);
+                }
+            }
+        }
+
+        public static void ClearScreen()
+        {
+
+            Console.Clear();
         }
     }
 

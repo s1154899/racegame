@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using model;
 
 namespace Model
 {
@@ -15,6 +16,14 @@ namespace Model
         public Driver(string name)
         {
             Name = name;
+            Equipment = new Equipment();
+
+            TeamColor = TeamColors.Red;
+        }
+
+        public Driver(String name, TeamColors teamColor):this(name)
+        {
+            TeamColor = teamColor;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text;
 using Model;
 
@@ -12,7 +13,6 @@ namespace Controller
 
 
 
-
         public static void NextRace() {
             if (Object.Equals(MyProperty,null)) {
                 MyProperty = new Competition();
@@ -21,7 +21,7 @@ namespace Controller
             }
             Track track = MyProperty.NextTrack();
             if (!Object.Equals(track,null)) {
-                Currentrace = new Race(track);
+                Currentrace = new Race(track,MyProperty.Participants);
             }
         }
 

@@ -6,11 +6,11 @@ namespace Model
 {
     public enum TeamColors
     {
-        Red,
-        Green,
-        Yellow,
-        Grey,
-        Blue
+        Red = 0xfc0303,
+        Green = 0xfc0303,
+        Yellow = 0xf0ff17,
+        Grey = 0x878787,
+        Blue = 0x002fff
 
 
 
